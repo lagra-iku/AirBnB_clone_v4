@@ -1,4 +1,5 @@
-window.addEventListener('load', function () {
+  // Tasks 3 and 2
+  window.addEventListener('load', function () {
     // task 3
     $.ajax('http://0.0.0.0:5001/api/v1/status').done(function (data) {
       if (data.status === 'OK') {
